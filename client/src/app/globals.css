@@ -63,10 +63,15 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.cus-container {
+  @apply container mx-auto px-8;
+}
+
+.trans {
+  @apply transition-all duration-300;
 }
